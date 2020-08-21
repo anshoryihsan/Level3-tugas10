@@ -9,7 +9,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 </head>
 
 <body>
-    <h1>Ubah Produk</h1>
+    <h1>Tambah Produk</h1>
     <?php echo validation_errors(); ?>
     <?php echo form_error('nama_nroduk'); ?>
     <form action="<?php echo base_url() . 'index.php/Produk/saveTambah'; ?>" method="post" id="update">
